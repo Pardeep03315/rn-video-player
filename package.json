@@ -1,0 +1,43 @@
+{
+  "name": "@delainetech/rn-video-player",
+  "version": "1.0.4",
+  "description": "A fully customizable React Native video player with controls, fullscreen, seek, mute and orientation support",
+  "main": "lib/index.js",
+  "types": "lib/index.d.ts",
+  "files": [
+    "lib",
+    "src/assets",
+    "src/components/seekbar"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "prepare": "npm run build"
+  },
+  "keywords": [
+    "react-native",
+    "video",
+    "player",
+    "video-player",
+    "react-native-video",
+    "fullscreen",
+    "controls"
+  ],
+  "author": "delainetech",
+  "license": "MIT",
+  "homepage": "https://www.npmjs.com/package/@delainetech/rn-video-player",
+  "peerDependencies": {
+    "@thehale/react-native-keep-awake": ">=0.2.0",
+    "react": "*",
+    "react-native": "*",
+    "react-native-orientation-locker": ">=1.0.0",
+    "react-native-video": ">=6.0.0"
+  },
+  "devDependencies": {
+    "@thehale/react-native-keep-awake": "^0.2.0",
+    "@types/react": "^18.3.28",
+    "@types/react-native": "^0.73.0",
+    "react-native-orientation-locker": "^1.7.0",
+    "react-native-video": "^6.19.1",
+    "typescript": "^5.9.3"
+  }
+}
