@@ -1,6 +1,6 @@
 {
   "name": "@delainetech/rn-video-player",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A fully customizable React Native video player with controls, fullscreen, seek, mute and orientation support",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
