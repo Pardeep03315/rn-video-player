@@ -25,6 +25,10 @@
   "author": "delainetech",
   "license": "MIT",
   "homepage": "https://www.npmjs.com/package/@delainetech/rn-video-player",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Pardeep03315/rn-video-player"
+  },
   "peerDependencies": {
     "@thehale/react-native-keep-awake": ">=0.2.0",
     "react": "*",
